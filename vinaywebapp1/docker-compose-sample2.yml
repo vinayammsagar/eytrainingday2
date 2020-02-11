@@ -1,0 +1,10 @@
+version: "3.7"
+services:
+  web1:
+    image: vinayamm/sampleweb:v2
+    container_name: vinayammsampleweb #optional
+    ports: 
+      - "4322:80"
+      - "7777:80"
+    volumes:
+      - ./vinaya-html:/usr/share/nginx/html/

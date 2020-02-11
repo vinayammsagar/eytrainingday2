@@ -1,0 +1,15 @@
+version: '3.5'
+services:
+   vinayawebapp1:
+     image: alpine
+     container_name: vinayaalpine
+     command: ping fb.com
+   vinayawebapp2:
+     image: nginx
+     container_name: nginx-webapp
+   vinayawebapp3:
+     image: vinayamm/sampleweb:v2
+     container_name: vinayasampleapp
+     ports:
+       - "3429:80"
+
