@@ -1,8 +1,8 @@
 version: "3.7"
 services:
   web1:
-    image: vinayamm/sampleweb:v2
-    container_name: vinayammsampleweb #optional
+    image: vinayamm/sampleweb1:v2
+    container_name: vinayammsampleweb1 #optional
     ports: 
       - "4322:80"
       - "7777:80"
